@@ -1,0 +1,59 @@
+.overview {
+    background-color: #33647f;
+    height: 100%vw;
+
+    &__text {
+        padding: 50px 30px;
+    }
+
+    &__share {
+        text-align: center;
+        padding-bottom: 30px;
+
+        &__title {
+            padding-bottom: 15px;
+        }
+
+        a {
+            margin-bottom: 30px;
+
+            img {
+                height: 30px;
+            }
+        }
+    }
+}
+
+.cast {
+    background-color: whitesmoke;
+    padding: 50px;
+
+    &__title {
+        text-align: center;
+        padding: 20px;
+    }
+
+    &__grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 80px;
+        padding-top: 30px;
+
+        &__img {
+            width: 565px;
+            height: 605px;
+            
+        }
+
+        &__content {
+            display: block;
+            padding: 0 15px;
+
+            h2{
+                font-size: 20px;
+                padding-bottom: 24px;
+            }
+        }
+    }
+}
